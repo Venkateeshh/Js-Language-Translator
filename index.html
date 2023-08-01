@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Language Translator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card input-wrapper">
+          <div class="from">
+            <span class="heading"> From :</span>
+             <!--Custom select  -->
+                <div class="dropdown-container" id="input-language">
+                    <div class="dropdown-toggle">
+                        <span class="selected">Auto Detect </span>
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="option active">Option 1</li>
+                    </ul>
+                </div>
+          </div>  
+        </div>
+        <div class="center"></div>
+        <div class="card output-wrapper"></div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
